@@ -7,7 +7,11 @@ CREATE TABLE Problems
 (
 problem_id INT PRIMARY KEY IDENTITY(1,1),
 title VARCHAR(MAX) NOT NULL,
-description VARCHAR(MAX) NOT NULL
+description VARCHAR(MAX) NOT NULL,
+input_format VARCHAR(MAX),
+output_format VARCHAR(MAX),
+sample_input VARCHAR(MAX),
+sample_output VARCHAR(MAX)
 )
 
 --Testcases for each Problem
