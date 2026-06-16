@@ -42,7 +42,7 @@ REFERENCES Problems(problem_id)
 
 --Problem 1
 INSERT INTO Problems
-(title, description)
+(title, description, input_format, output_format, sample_input, sample_output)
 VALUES
 (
 'Add Two Integers',
