@@ -14,7 +14,7 @@ It is a Desktop-Based Mini Version of Platforms Like LeetCode, Codeforces where 
 
 # Database Schema
 
-- Provided in schema\database.sql (Used SSMS For Database)
+- Provided in schema\database.sql (Used SSMS(SQL Server) For Database)
 
 # How to Use
 
