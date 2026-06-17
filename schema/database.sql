@@ -34,6 +34,7 @@ submission_id INT PRIMARY KEY IDENTITY(1,1),
 problem_id INT NOT NULL,
 code VARCHAR(MAX) NOT NULL,
 verdict VARCHAR(50),
+submitted_at DATETIME DEFAULT GETDATE(),
 
 CONSTRAINT FK_Submissions_Problems
 FOREIGN KEY (problem_id)
