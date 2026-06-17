@@ -30,7 +30,7 @@ It is a Desktop-Based Mini Version of Platforms Like LeetCode, Codeforces where 
 
 # In Schema:
 
-- 5 Dummy Problems
+- 20 Dummy Problems
 - 10 Testcases for each
 
 

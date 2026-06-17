@@ -50,3 +50,6 @@ def get_submission_by_id(submission_id):
     
     return cursor.fetchone()
 
+def get_all_problems():
+    cursor.execute("SELECT problem_id, title FROM Problems ORDER BY problem_id")
+    return cursor.fetchall()
